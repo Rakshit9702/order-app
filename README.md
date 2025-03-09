@@ -1,12 +1,57 @@
-# React + Vite
+# Food Ordering App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+A modern food ordering web application that allows users to browse restaurant menus, generate QR codes, and securely store email subscriptions.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🍽️ Browse restaurant menus
+- 📱 Generate QR codes for easy menu access
+- 🔐 Secure email subscription storage (JSON format)
+- 🛒 Add items to cart & checkout functionality
+- 🌟 Responsive design for mobile & desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, React Icons, CSS
+- **Backend:** Node.js, Express
+- **Database:** JSON file storage (previously MongoDB)
+- **Deployment:** Heroku
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```
+my-project/
+│── src/
+│   ├── components/    # Reusable components
+│   ├── pages/         # Main app pages
+│   ├── assets/        # Images & icons
+│   ├── App.jsx        # Main component
+│   ├── styles.css     # Global styles
+│── public/
+│── package.json       # Dependencies & scripts
+│── server.js          # Backend server
+│── README.md          # Documentation
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📥 Installation & Setup
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/Rakshit9702/order-app.git
+   cd order-app
+   ```
+
+2. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Run the App Locally:**
+   ```sh
+   npm run dev
+   ```
+
+4. **Run the Backend Server:**
+   ```sh
+   node server.js
+   ```
+
+## 🤝 Contribution
+Feel free to fork the repo, create a branch, and sub

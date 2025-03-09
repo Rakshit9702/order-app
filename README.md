@@ -50,7 +50,7 @@ my-project/
 
 4. **Run the Backend Server:**
    ```sh
-   node server.js
+   node index.js
    ```
 
 ## 🤝 Contribution

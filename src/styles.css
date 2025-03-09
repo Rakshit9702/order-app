@@ -164,7 +164,7 @@ nav {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Optional: rounded corners */
+    border-radius: 10px;
     /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); */
 }
 
